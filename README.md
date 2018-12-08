@@ -92,6 +92,8 @@ Sold from 2015 to 2017 *(yeah MacbookAir 2017 is exactly the same laptop, with t
 It has the closest specs:
 Core i5 (I5-5250U) / Intel HD6000 (1.5 GB vram) / 13" LCD (1440x900) /  Broadcom wifi AC + BT / 8 GB RAM DDR3 / 128GB SSD / 2 x USB3 ports.
 
+Its code name is **MacBookAir7,2**
+
 ## Installation
 
 ....
