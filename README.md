@@ -86,8 +86,8 @@ While waiting for the internal wifi replacement card to arrive, I've used a USB 
 
 ### Targeted MacBook
 
-Apple MacBook Air "Core i5" 1.6 13" (Early 2015)
-https://everymac.com/systems/apple/macbook-air/specs/macbook-air-core-i5-1.6-13-early-2015-specs.html#macspecs2
+**[MacBook Air "Core i5" 1.6 13" - Early 2015](https://everymac.com/systems/apple/macbook-air/specs/macbook-air-core-i5-1.6-13-early-2015-specs.html)**
+Sold from 2015 to 2017 *(yeah MacbookAir 2017 is exactly the same laptop, with the Broadwell CPU from 2015...)*
 
 It has the closest specs:
 Core i5 (I5-5250U) / Intel HD6000 (1.5 GB vram) / 13" LCD (1440x900) /  Broadcom wifi AC + BT / 8 GB RAM DDR3 / 128GB SSD / 2 x USB3 ports.
