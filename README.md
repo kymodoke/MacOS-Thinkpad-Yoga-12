@@ -84,7 +84,13 @@ So if you find a good price opportunity on Lenovo's BCM94352Z card (usually chea
 ##### WIFI alternative :
 While waiting for the internal wifi replacement card to arrive, I've used a USB wifi key TP-Link TL-WN725N. Mine is TL-WN725N **V2** (and V3 does also work). It works pretty well, while it's limited to Wifi-N (one band) at 150Mbps and occupy one of the two USB port available on this laptop. Note: for V2 of this adapter TP-Link recommnends the specific V2 of its driver. But the V2 driver is unstable as hell, use instead V3 driver even for a V2 adapter (it works pretty well). Driver URL: https://www.tp-link.com/us/download/TL-WN725N_V3.html
 
+### Targeted MacBook
 
+Apple MacBook Air "Core i5" 1.6 13" (Early 2015)
+https://everymac.com/systems/apple/macbook-air/specs/macbook-air-core-i5-1.6-13-early-2015-specs.html#macspecs2
+
+It has the closest specs:
+Core i5 (I5-5250U) / Intel HD6000 (1.5 GB vram) / 13" LCD (1440x900) /  Broadcom wifi AC + BT / 8 GB RAM DDR3 / 128GB SSD / 2 x USB3 ports.
 
 ## Installation
 
