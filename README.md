@@ -13,6 +13,7 @@ There is a known bug in embeded controller, where **CPU fan stop triggering**. T
 
 BIOS Summary of Changes at https://download.lenovo.com/pccbbs/mobiles/jeuj84ww.txt
 
+```
 <1.20>
 - (New) Updated Fan table
 - (Fix) Fixed an issue that Fan stops working even when temperature reaching trigger point.
@@ -21,11 +22,11 @@ BIOS Summary of Changes at https://download.lenovo.com/pccbbs/mobiles/jeuj84ww.t
 
 <1.08>
 - (New) Removed authentication of WLAN cards.
-
+```
 
 So if you want to be able to replace the Wifi card with a MacOS compatible card, Bios version 1.08 or above is mandatory.
 
---> Version 1.20 or later recommended.
+But version 1.20 or later is highly recommended !
 
 Due to so many horror stories and laptop bricked by BIOS update done from within Windows, I highly recommand to update BIOS only from bootable media (CD or USB thumb). Here you can find ISO file to download: https://support.lenovo.com/fr/fr/downloads/ds102287
 If you get error message "secure flash athentication failed" while updating the BIOS, you should disable first "rollback prevention " in BIOS settings.
