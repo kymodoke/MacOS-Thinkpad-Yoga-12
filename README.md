@@ -77,7 +77,9 @@ Thinkpad Yoga 12 M.2 wifi port is E keyed, so it's compatible with both A+E and 
 - Dell DW1560 (BCM94352Z) which is M.2 **"A+E" keyed**.
 - Lenovo BCM94352Z (**FRU 04X6020**) which is M.2 **"E" keyed**.
 
-So if you find a good price opportunity on Lenovo's BCM94352Z card, you can go for it on Yoga 12 ;) *This is not the case for every laptops*
+*This card works perfectly (both Wifi and BT) with just 3 kexts (1 for wifi and 2 for BT) and no need for any patching.*
+
+So if you find a good price opportunity on Lenovo's BCM94352Z card (usually cheaper on the market than Dell's card), you can go for it on Yoga 12 ;) *This is not the case for every laptops*
 
 ##### WIFI alternative :
 While waiting for the internal wifi replacement card to arrive, I've used a USB wifi key TP-Link TL-WN725N. Mine is TL-WN725N **V2** (and V3 does also work). It works pretty well, while it's limited to Wifi-N (one band) at 150Mbps and occupy one of the two USB port available on this laptop. Note: for V2 of this adapter TP-Link recommnends the specific V2 of its driver. But the V2 driver is unstable as hell, use instead V3 driver even for a V2 adapter (it works pretty well). Driver URL: https://www.tp-link.com/us/download/TL-WN725N_V3.html
