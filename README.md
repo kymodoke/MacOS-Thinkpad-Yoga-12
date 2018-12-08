@@ -130,21 +130,27 @@ Its code name is **MacBookAir7,2**
 
 #### In Library/Extensions
 
-
-- AirportBrcmFixup.kext
-- AppleALC.kext
-- AppleBacklightFixup.kext
+- AirportBrcmFixup.kext *(for Wifi Airport)*
+- AppleALC.kext *(for sound)*
+- AppleBacklightFixup.kext *(for LCD brightness management)*
+- AppleGraphicsPowerManagement_Broadwell.kext *(for GPU low frequency management)*
+- BrcmFirmwareRepo.kext *(for bluetooth)*
+- BrcmPatchRAM2.kext *(for bluetooth)*
+- HibernationFixup.kext
 - IntelMausiEthernet.kext
 - Lilu.kext
 - SMCBatteryManager.kext
 - SMCProcessor.kext
+- Sinetek-rtsx.kext *(For SD Card Reader)*
 - USBPorts.kext
+- UVC2FaceTimeHD.kext *(to fake FaceTimeHD camera)
 - VirtualSMC.kext
-- VoodooPS2Controller.kext
-- WhateverGreen.kext
-- ..
-- HibernationFixup.kext
-- Sinetek-rtsx kext for PCI SD-Card reader. Sources: https://github.com/syscl/Sinetek-rtsx (fork of https://github.com/sinetek/Sinetek-rtsx ). I've used the build from this repository: https://github.com/Maxcj/Hasee-OS-X
+- VoodooPS2Controller.kext *(for keyboard/trackpad/trackpoint)*
+- WhateverGreen.kext *(for GPU support)*
+- X86PlatformPlugin_Broadwell.kext *(to manage CPU frequencies vectors)*
+
+
+Note about Sinetek-rtsx kext for PCI SD-Card reader. Sources: https://github.com/syscl/Sinetek-rtsx (fork of https://github.com/sinetek/Sinetek-rtsx ). I've used the build from this repository: https://github.com/Maxcj/Hasee-OS-X
 It works somehow... (note I've taken the release 2018.11.05
 
 ### 2. Hotpaches
