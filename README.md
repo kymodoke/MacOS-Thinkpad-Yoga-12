@@ -103,18 +103,39 @@ While waiting for the internal wifi replacement card to arrive, I've used a USB 
 
 ### 2. Kexts used
 
-- ACPIBatteryManager.kext
+#### In Clover/Kexts/Other
+
+*In conjonction with Inject = Detect in config.plist (so these kexts are only used for System updates or boot in recovery mode)*
+
+- AirportBrcmFixup.kext
+- AppleALC.kext
 - AppleBacklightFixup.kext
-- HibernationFixup.kext
 - IntelMausiEthernet.kext
 - Lilu.kext
 - SMCBatteryManager.kext
 - SMCProcessor.kext
-- USBInjectAll.kext
+- USBPorts.kext
 - VirtualSMC.kext
-- VoodooHDA.kext
 - VoodooPS2Controller.kext
 - WhateverGreen.kext
+
+
+#### In Library/Extensions
+
+
+- AirportBrcmFixup.kext
+- AppleALC.kext
+- AppleBacklightFixup.kext
+- IntelMausiEthernet.kext
+- Lilu.kext
+- SMCBatteryManager.kext
+- SMCProcessor.kext
+- USBPorts.kext
+- VirtualSMC.kext
+- VoodooPS2Controller.kext
+- WhateverGreen.kext
+- ..
+- HibernationFixup.kext
 - Sinetek-rtsx kext for PCI SD-Card reader. Sources: https://github.com/syscl/Sinetek-rtsx (fork of https://github.com/sinetek/Sinetek-rtsx ). I've used the build from this repository: https://github.com/Maxcj/Hasee-OS-X
 It works somehow... (note I've taken the release 2018.11.05
 
