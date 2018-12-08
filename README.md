@@ -133,7 +133,7 @@ Its code name is **MacBookAir7,2**
 - AirportBrcmFixup.kext *(for Wifi Airport)*
 - AppleALC.kext *(for sound)*
 - AppleBacklightFixup.kext *(for LCD brightness management)*
-- AppleGraphicsPowerManagement_Broadwell.kext *(for GPU low frequency management)*
+- AppleGraphicsPowerManagement_Broadwell.kext *(to inject GPU low frequency management)*
 - BrcmFirmwareRepo.kext *(for bluetooth)*
 - BrcmPatchRAM2.kext *(for bluetooth)*
 - HibernationFixup.kext
@@ -143,11 +143,11 @@ Its code name is **MacBookAir7,2**
 - SMCProcessor.kext
 - Sinetek-rtsx.kext *(For SD Card Reader)*
 - USBPorts.kext
-- UVC2FaceTimeHD.kext *(to fake FaceTimeHD camera)
+- UVC2FaceTimeHD.kext *(to fake FaceTimeHD camera)*
 - VirtualSMC.kext
 - VoodooPS2Controller.kext *(for keyboard/trackpad/trackpoint)*
 - WhateverGreen.kext *(for GPU support)*
-- X86PlatformPlugin_Broadwell.kext *(to manage CPU frequencies vectors)*
+- X86PlatformPlugin_Broadwell.kext *(to inject CPU frequencies vectors)*
 
 
 Note about Sinetek-rtsx kext for PCI SD-Card reader. Sources: https://github.com/syscl/Sinetek-rtsx (fork of https://github.com/sinetek/Sinetek-rtsx ). I've used the build from this repository: https://github.com/Maxcj/Hasee-OS-X
