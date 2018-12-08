@@ -90,7 +90,7 @@ While waiting for the internal wifi replacement card to arrive, I've used a USB 
 Sold from 2015 to 2017 *(yeah MacbookAir 2017 is exactly the same laptop, with the Broadwell CPU from 2015...)*
 
 It has the closest specs:
-Core i5 (I5-5250U) / Intel HD6000 (1.5 GB vram) / 13" LCD (1440x900) /  Broadcom wifi AC + BT / 8 GB RAM DDR3 / 128GB SSD / 2 x USB3 ports.
+Core i5 (I5-5250U) / Intel HD6000 (1.5 GB vram) / 13" LCD (1440x900) /  Broadcom wifi AC + BT (bcm94360cd) / 8 GB RAM DDR3 / 128GB SSD / 2 x USB3 ports.
 
 Its code name is **MacBookAir7,2**
 
