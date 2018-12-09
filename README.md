@@ -159,7 +159,12 @@ It consitsts of a combinaison of ACPI replacements done in Clover plist along wi
 
 ### HiDPI
 
-Or this automated script: https://github.com/xzhih/one-key-hidpi
+I've used this automated script: https://github.com/xzhih/one-key-hidpi
+
+It allows the follwing scaled resolutions using HiDPI system: 1280x720 / 1440x810 / 1680x845 / 1920x1080
+
+![HiDPI](https://raw.githubusercontent.com/kymodoke/MacOS-Thinkpad-Yoga-12/master/images/hidpi.png)
+
 
 ### Disable Hibernation
 
@@ -513,7 +518,10 @@ In System Information:
 
 Note about the ThinkPad OneLink Pro Dock https://support.lenovo.com/us/en/solutions/pd029981
 
-![OneLink Pro Dock](https://raw.githubusercontent.com/gartempe/MacOS-Thinkpad-Yoga-12/master/images/onelinkprodock.jpg)
+![OneLink Pro Dock](https://raw.githubusercontent.com/kymodoke/MacOS-Thinkpad-Yoga-12/master/images/onelinkprodock.jpg)
+
+
+
 
 If you plan to use your Thinkpad Yoga 12 regularly on a desk, this dock is very convenient. If you get the opportunity to buy one for cheap *(I bought mine for 25 euros on Ebay)*, go for it ;)
 
