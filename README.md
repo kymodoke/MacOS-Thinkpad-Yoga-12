@@ -157,6 +157,27 @@ It works somehow... (note I've taken the release 2018.11.05
 
 It consitsts of a combinaison of ACPI replacements done in Clover plist along with additional custom SDST files.
 
+### HiDPI
+
+Or this automated script: https://github.com/xzhih/one-key-hidpi
+
+### Disable Hibernation
+
+Source: https://www.tonymacx86.com/threads/guide-native-power-management-for-laptops.175801/
+
+```
+sudo pmset -a hibernatemode 0
+sudo rm /var/vm/sleepimage
+sudo mkdir /var/vm/sleepimage
+```
+
+```
+sudo pmset -a standby 0
+sudo pmset -a autopoweroff 0
+```
+
+-----------------------
+
 #### 1. USB power management, port limiting and fix instant wake-up
 
 Adapted from this guide: https://www.tonymacx86.com/threads/guide-usb-power-property-injection-for-sierra-and-later.222266/
