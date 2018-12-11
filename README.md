@@ -58,6 +58,30 @@ If you get error message "secure flash athentication failed" while updating the 
 |Camera|CON4B2E72 Integrated Camera (USB Internal port)|
 |Extension Port|Onelink Dock port for extension module [Onelink Pro Dock](https://support.lenovo.com/us/en/solutions/pd029981)|
 
+#### USB ports
+
+USB controller XHC is 8086_9cb1 with following ports (when used with UsbInjectAll):
+
+|USB Port|Usage|
+|---|---|
+|HS01|Left port, external (USB2)|
+|HS02|Right port, external (USB2)|
+|HS03|dedicated to Onelink Pro Dock (USB2)|
+|HS04|Bluetooth, internal (USB2)|
+|HS05|Synaptic Touch Digitizer, internal (USB2)|
+|HS06|Integrated camera, internal (USB2)|
+|HS07|Not used|
+|HS08|ISD-V4 (tablet), internal (USB2)|
+|HS09|Not used|
+|HS10|Not used|
+|HS11|Not used|
+|SSP1|Left port, external (USB3)|
+|SSP2|Right port, external (USB3)|
+|SSP3|dedicated to Onelink Pro Dock (USB3)|
+|SSP4|Not used|
+|SSP5|Not used|
+
+
 
 #### What will work:
 CPU, Graphic Card, Power Management, Battery, Sleep, Camera, Screen (FHD), brightness, HiDPI, Keyboard, Trackpad and Trackpoint, Sound, USB ports, HDMI port, HDMI Audio-Out, Onelink Pro Dock (USB2/USB3, DisplayPort, DVI, Ethernet).
