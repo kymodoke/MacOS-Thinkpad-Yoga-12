@@ -81,7 +81,7 @@ USB controller XHC is 8086_9cb1 with following ports (when used with UsbInjectAl
 |SSP4|Not used|
 |SSP5|Not used|
 
-So a kext will be used to only enable the following ports HS01,HS02,HS03,HS04,HS06,HS08,SSP1,SSP2,SSP3 with appropriate port values (external USB2/external USB3/internal). *Note: if you don't plan to use OneLink Dock, you can also disable HS03 and SSP3*
+So a kext (**USBPorts.kext**) will be used to only enable the following ports HS01,HS02,HS03,HS04,HS06,HS08,SSP1,SSP2,SSP3 with appropriate port values (external USB2/external USB3/internal). *Note: if you don't plan to use OneLink Dock, you can also disable HS03 and SSP3*
 
 #### What will work:
 CPU, Graphic Card, Power Management, Battery, Sleep, Camera, Screen (FHD), brightness, HiDPI, Keyboard, Trackpad and Trackpoint, Sound, USB ports, HDMI port, HDMI Audio-Out, Onelink Pro Dock (USB2/USB3, DisplayPort, DVI, Ethernet).
