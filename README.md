@@ -174,8 +174,11 @@ Its code name is **MacBookAir7,2**
 - X86PlatformPlugin_Broadwell.kext *(to inject CPU frequencies vectors)*
 
 
-Note about Sinetek-rtsx kext for PCI SD-Card reader. Sources: https://github.com/syscl/Sinetek-rtsx (fork of https://github.com/sinetek/Sinetek-rtsx ). I've used the build from this repository: https://github.com/Maxcj/Hasee-OS-X
+Note about some kexts:
+
+- Sinetek-rtsx kext for PCI SD-Card reader. Sources: https://github.com/syscl/Sinetek-rtsx (fork of https://github.com/sinetek/Sinetek-rtsx ). I've used the build from this repository: https://github.com/Maxcj/Hasee-OS-X
 It works somehow... (note I've taken the release 2018.11.05
+- UVC2FaceTimeHD.kext has been found in this repository https://github.com/the-darkvoid/XPS9360-macOS/tree/master/kexts/UVC2FaceTimeHD.kext and modified (ProductID and VendorID) to match Yoga 12 internal camera.
 
 ### 2. Hotpaches
 
