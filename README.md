@@ -58,6 +58,10 @@ If you get error message "secure flash athentication failed" while updating the 
 |Camera|CON4B2E72 Integrated Camera (USB Internal port)|
 |Extension Port|Onelink Dock port for extension module [Onelink Pro Dock](https://support.lenovo.com/us/en/solutions/pd029981)|
 
+Note about Touchscreen: the touchscreen is not recognized at all in MacOS, not even as a single mouse pointer *(like on the former Thinkpad Yoga S1)*. I've tried many things: faking USB ProductID/VendorID to get it to work with Wacom Driver, faking kext for several touch device drivers, using [VoodooI2C](https://github.com/alexandred/VoodooI2C) with VoodooI2CHID Satellites... without any success. So I've dediced to just stop bothering trying to get touchscreen on MacOS and forget this feature.
+
+*You can use the touchscreen feature with others OS : Win10/Win8, Ubuntu+Gnome (works well), CloudReady/ChromeOS or even PhoenixOS/Android7 or BlissOS/Android8.*
+
 #### USB ports
 
 USB controller XHC is 8086_9cb1 with following ports (when used with UsbInjectAll):
